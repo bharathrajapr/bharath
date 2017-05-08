@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index page</title>
+	<style type="text/css">
+	    body{
+		    font-family: sans-serif;
+		}
+		body, h1, span, html, p{
+		    padding: 0px;
+			margin: 0px;
+			outline: 0px;
+			border: 0px;
+		}
+		.headerone{
+		    min-height: 50px;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+		}
+	    a{
+		    text-decoration: none;
+            padding: 0px 10px;
+            font-size: 14px;
+            color: black;
+             
+		}
+		.signing{
+		    float: right;
+			position: relative;
+			top: 10px;
+		}
+		a.zohoeu{
+		    border-left: 1px solid;
+		}
+		.logo span{
+		    background: url('zohohome-sprite-new.png') no-repeat 0px 0px;
+			width: 158px;
+			height: 56px;
+			display: inline-block;
+			text-indent: -999em;
+			transform: scale(0.6);
+            margin-left: -15px;
+	    }
+		a.zohoapps{
+		    color: #03a9f4;
+		}
+		.headertwo{
+		    text-align: center;
+			margin-top: 100px;
+			position: relative;
+		}
+		.headertwo .logo{
+		    display: none;
+		}
+		.subheadingtext{
+		    padding: 5px 5% 25px;    
+		}
+		.signupbutton{
+		    
+			
+			
+			
+	    }
+		.signupbutton a{
+		    color: white;
+			display: block;
+			max-width: 210px;
+			height: 46px;
+			line-height:46px;
+			margin: 0 auto;
+			background-color: rgba(211, 47, 47, 0.92);
+		}
+		.headertwo h1{
+		    font-size: 58px;
+            padding: 0px 0px 5px;
+            letter-spacing: -1.5px;
+		}
+		.featuredapps{
+		    margin-top: 80px;
+			color: rgba(0, 0, 0, 0.44);
+		    text-align: center;
+			font-size: 12px;
+            letter-spacing: 2px;
+		}
+		.featuredappsone span.featuredappsoneimg{
+		    background: url(zohohome-sprite-new.png) no-repeat -448px -10px;
+			width: 84px;
+            height: 59px;
+            display: inline-block;
+            text-indent: -9999px;
+			padding: 10px 0px;
+			
+			
+		}
+		.featuredappstwo span.featuredappstwoimg{
+		    background: url(zohohome-sprite-new.png) no-repeat -697px -1px;
+			width: 72px;
+			height: 80px;
+			display: inline-block;
+			
+		}
+		.featuredappsthree span.featuredappsthreeimg{
+		    background: url(zohohome-sprite-new.png) no-repeat -775px -2px;
+			width: 76px;
+			height: 69px;
+			display: inline-block;
+			
+		}
+		.featuredappsfour span.featuredappsfourimg{
+		    background: url(zohohome-sprite-new.png) no-repeat -530px -3px;
+			width: 83px;
+			height: 72px;
+			display: inline-block;
+			
+		}
+		.featuredappsfive span.featuredappsfiveimg{
+		    background: url(desk-logo.png) no-repeat;
+			background-position: 1px 12px;
+			width: 60px;
+            height: 78px;
+            display: inline-block;
+            text-indent: -9999px;
+			padding: 10px 0px;
+			
+			
+		}
+		.featuredappsone, .featuredappstwo, .featuredappsthree, .featuredappsfour{
+		    padding: 0px 2%;
+			border-right: 1px solid rgba(0, 0, 0, 0.12); 
+		
+		}
+		.featuredappsfive{
+		     padding: 0px 2%;
+		}
+		.featuredapps{
+		    max-width: 100%;
+            margin: 80px auto;
+			
+		}
+		.featuredapps h3{
+		    padding-bottom: 35px;
+			
+		}
+		.featuredappsone small{
+		   letter-spacing: none;
+			
+		}
+		.featuredappsone, .featuredappstwo, .featuredappsthree, .featuredappsfour, .featuredappsfive{
+		display: table-cell;
+		}
+		.featuredappslist{
+		    display: table;
+			margin: 0px auto;
+			max-width: 1280px;
+		}
+		.featuredappsonehead, .featuredappsonedesc, .featuredappstwohead, .featuredappsthreehead, .featuredappsfourhead, .featuredappsfivehead{
+		    display: block;
+			color: black;
+			font-size: 12px;
+            letter-spacing: 0px;
+			padding: 0px 0px 4px;
+		}
+		small{
+		    letter-spacing: 0px;
+		}
+		.featuredappsonedesc{
+		    padding-top: 5px;
+			color: rgba(0, 0, 0, 0.74);
+		    
+		}
+		
+		@media all and (max-width: 480px){
+		    .headertwo h1{
+		    font-size: 26px;
+			max-width: 270px;
+			letter-spacing: -0.5px;
+			margin: 0px auto;
+            padding: 0px 0px 5px;
+            letter-spacing: -1.5px;
+			color: #333;
+		}
+		.headertwo .logo{
+		    display: block;
+		}
+		.headertwo{
+		    margin: 0px;
+			padding: 70px 10% 40px;
+		}
+		.subheadingtext{
+		    max-width: 550px;
+			line-height: 26px;
+			font-size: 16px;
+			color: #333;
+			margin: 0px auto;
+		}
+		.signupbutton a{
+		    max-width: 180px;
+			height: 42px;
+			line-height:42px;
+		}
+		.headerone .logo{
+		    display: none;
+		}
+		.logo span {
+		    display: inline-block;
+			text-align: center;
+			margin: 0px 0px 15px;
+			transform: scale(0.7);
+		}
+		.signing{
+		    top: 8px;
+		    height: 30px;
+			line-height: 30px
+		}
+		.featuredappslist small{
+		    display: none;
+		}
+		.featuredappsone span.featuredappsoneimg{
+		    transform: scale(0.7);
+			
+		}
+		.featuredappstwo span.featuredappstwoimg{
+		   transform: scale(0.7);
+		}
+		.featuredappsthree span.featuredappsthreeimg{
+		    transform: scale(0.7);
+		}
+		.featuredappsfour span.featuredappsfourimg{
+		    transform: scale(0.7);
+		}
+		
+		}
+		@media all and (max-width: 1200px){
+		    .subheadingtext{
+		    max-width: 550px;
+			line-height: 26px;
+			font-size: 16px;
+			color: #333;
+			margin: 0px auto;
+		   }
+		}
+		
+		@media all and (max-width: 640px){
+		    .headerone .logo{
+			    display: none;
+			}
+			.headertwo .logo{
+		        display: block;
+				
+		    }
+			.headertwo .logo span{
+			    transform: none;
+				margin: 0px 0px 15px;
+			}
+			.headertwo h1 {
+			    font-size: 28px;
+				letter-spacing: -1.5px;
+			    color: #333
+			}
+		}
+	
+		
+	</style>
+</head>
+
+<body>
+    <div class="headerone">
+        <div class="signing">
+	        <a class="zohoapps" href="#">All Zoho Apps</a>
+	        <a href="#">Support</a>
+	        <a href="#">Login</a>
+	        <a href="#">SIGN UP NOW</a>
+	        <a class="zohoeu" href="#">Zoho.eu</a>
+	    </div>
+	    
+	    <div class="logo">
+	        <span>ZOHO</span>
+	    </div>
+	</div>
+	<div class="headertwo">
+	    <div class="logo">
+	        <span>ZOHO</span>
+	    </div>
+	    <h1>The operating system for business</h1>
+		<p class="subheadingtext">Zoho has everything you need to boost sales, step up productivity, and manage all day-to-day activities.</p>
+		<div class="signupbutton">
+		    <a href="#">SIGN UP FOR FREE</a>
+		</div>
+	</div>
+	<div class="featuredapps">
+	    <h3>FEATURED APPS</h3>
+		<div class="featuredappslist">
+	        <a href="#" class="featuredappsone">
+		        <span class="featuredappsoneimg"></span>
+		    	<span class="featuredappsonehead">CRM</span>
+		    	<small>close more deals.</small>
+		    </a>
+			<a href="#" class="featuredappstwo">
+		        <span class="featuredappstwoimg"></span>
+		    	<span class="featuredappstwohead">Mail</span>
+		    	<small>clean and ad free.</small>
+		    </a>
+			<a href="#" class="featuredappsthree">
+		        <span class="featuredappsthreeimg"></span>
+		    	<span class="featuredappsthreehead">Books</span>
+		    	<small>smart accounting.</small>
+		    </a>
+			<a href="#" class="featuredappsfour">
+		        <span class="featuredappsfourimg"></span>
+		    	<span class="featuredappsfourhead">Creator</span>
+		    	<small>Build custom apps.</small>
+		    </a>
+			<a href="#" class="featuredappsfive">
+		        <span class="featuredappsfiveimg"></span>
+		    	<span class="featuredappsfivehead">Desk</span>
+		    	<small>Context-aware help desk.</small>
+		    </a>
+			
+		</div>
+	</div>
+</body>
+</html>
